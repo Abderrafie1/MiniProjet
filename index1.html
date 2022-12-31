@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="index1.css">
+ <title>Mini Projet</title>
+</head>
+<body>
+  <div class="signup">
+    <div class="rafa">
+      <h2>Langages de Scripts</h2>
+      <i class="container" aria-hidden="true"></i>
+      <p>abderrafie166@gmail.com</p>
+    </div>
+    <form action="index2.html" method="POST" class="form" name="form" onsubmit="return checkForm(event)">
+      <h2>Sign Up</h2>
+      <ul class="modal-content">
+        <li>
+          <label for="username" class="mon-element">Username : </label> 
+          <input type="text" class="input" id="username" name="username" placeholder="Choose a username" 
+          value="" oninput="return validateForm(this.value)"  required />
+        </li>
+        <li>
+          <label for="password" class="mon-element">Password : </label>
+          <input type="password" class="input" id="password" name="password" placeholder="Enter a strong password"
+           value="" oninput="return validateForm(this.value)" required/>
+        </li>
+        <li>
+          <label for="confirm-password" class="mon-element">Confirm Password : </label>
+          <input type="password" class="input" id="confirm-password" name="confirm-password" placeholder="Reenter your password" 
+          value="" oninput=" return validateForm(this.value)" -z]) required/>
+        </li>
+        <li>
+          <label for="email" class="mon-element">Email : </label>
+          <input type="email" class="input" id="email" name="email" placeholder="Enter your email" value=""
+           oninput="return validateForm(this.value)"  required/>
+        </li>
+        <li id="center-btn">
+            <input type="submit" id="Signup-btn" name="Sign Up" alt="Sign Up" value="Sign Up" formaction="index2.html" >
+          </li>
+        </ul>  </form>
+    </div>
+<script src="index1.js"></script>
+</body>
+</html>

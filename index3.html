@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+
+
+
+
+    
+
+
+    <title>Mini Projet</title>
+    <link rel="stylesheet" href="index3.css">
+    <a href="responsive.php"></a>
+
+    
+</head>
+<body> 
+  
+
+
+    <nav style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        <a href="index2.html">Home</a> 
+        <a href="index3.html">Courses</a>
+        <a href= "index4.html">About</a>
+    </nav> <br> <br>
+
+
+    <div class="container">
+        <div class="filres">
+            <div class="search-container">
+            <input type="search" placeholder="Search..." id="category"
+            class="search-input">
+        <a href="#" class="search-btn">
+                <i class="fas fa-search"></i>      
+        </a>
+
+        </div>
+            <div class="categories" style="color: rgb(97, 182, 216); padding-left: 15px;">
+            <p style="padding-left: 30px;"> Categories </p> 
+           <ul>
+           <input class="btn " type="button" value="ALL" ></ul> 
+           <ul>
+           <input class="btn " type="button" value="HTML"> </ul>
+           <ul>
+           <input class="btn " type="button" value="CSS"  > </ul>
+           <ul>
+           <input class="btn " type="button" value="JS"   > </ul>
+           <ul>
+           <input class="btn " type="button" value="PHP"  ></ul> <br>
+           <p style="padding-left: 50px;"> Price </p>
+           <input type="range" id="prix" min="0" max="100" step="1" oninput="updatePriceValue()">
+           <p id="priceValue" > Price :</p>
+          
+       </div>
+
+
+        </div>
+
+    <div class="courses" data-category="ALL">
+
+
+        <article class="course" data-category="HTML">
+        <img src="html.png" alt="menu item" class="photo" width="20%" />
+        <h5 >HTML COURSES</h5>
+        <h6>13.00$<span> 55.99$</span></h6>
+
+        
+        </article>
+        <article class="course" data-category="HTML">
+            <img src="html1.png" alt="menu item" class="photo" width="20%" />
+            <h5 >LEARNING HTML</h5>
+            <h6>9.99$<span> 19.00$</span></h6>
+    
+            
+            </article>
+            <article class="course" data-category="HTML">
+                <img src="htmlintro.png" alt="menu item" class="photo" width="20%" />
+                <h5 >HTML INTRODUCTION</h5>
+                <h6>10.99$ <span> 67.00$</span></h6>
+        
+                
+                </article>
+                <article class="course" data-category="JS">
+                    <img src="js.png" alt="menu item" class="photo" width="20%" />
+                    <h5 >JS COURSE</h5>
+                    <h6>71.99$ <span> 100.00$US</span></h6>
+            
+                    
+                    </article>
+                    <article class="course" data-category="JS">
+                        <img src="jsadvanced.png" alt="menu item" class="photo" width="20%" />
+                        <h5 >JS-ADVANCED</h5>
+                        <h6>15.99$ <span> 39.99$</span></h6>
+                
+                        
+                        </article>
+                        <article class="course" data-category="JS">
+                            <img src="jsfunction.png" alt="menu item" class="photo" width="20%" />
+                            <h5 >JS-FUNCTIONS</h5>
+                            <h6>15.99$ <span> 59.99$</span></h6>
+                    
+                            
+                            </article>
+                            <article class="course" data-category="JS">
+                                <img src="jsvariable.png" alt="menu item" class="photo" width="20%" />
+                                <h5 >JS-VARIABLES</h5>
+                                <h6>25.99$ <span> 32.00$</span></h6>
+                        
+                                
+                                </article>
+                              
+                                <article class="course" data-category="CSS">
+                                        <img src="css.png" alt="menu item" class="photo" width="20%" />
+                                        <h5 > CSS</h5>
+                                        <h6>13.99$US <span> 40.99$US</span></h6>
+                                
+                                        
+                                </article>
+                                 <article class="course" data-category="CSS">
+                                            <img src="css1.png" alt="menu item" class="photo" width="20%" />
+                                            <h5 >CSS-POSITION</h5>
+                                            <h6>1.99$US <span> 3.99$US</span></h6>
+                                    
+                                            
+                                            </article>
+                                          
+                                                <article class="course" data-category="PHP">
+                                                    <img src="php1.png" alt="menu item" class="photo" width="20%" />
+                                                    <h5 > PHP COURSES</h5>
+                                                    <h6>16.99$  <span> 29.99$</span></h6>
+                                            
+                                                    
+                                                    </article>
+                                                    <article class="course" data-category="PHP">
+                                                        <img src="php2.png" alt="menu item" class="photo" width="20%" />
+                                                        <h5 >PHP CRASH COURSE</h5>
+                                                        <h6>60.99$<span> 89.99$</span></h6>
+                                                
+                                                        
+                                                        </article>
+                                                          
+                                                    </article>
+                                                    <article class="course" data-category="PHP">
+                                                        <img src="php3.png" alt="menu item" class="photo" width="20%" />
+                                                        <h5 >PHP FULL COURSE</h5>
+                                                        <h6>22.99$<span> 46.99$</span></h6>
+                                                
+                                                        
+                                                        </article>
+
+
+
+
+       </div>
+
+
+
+
+      </div>
+    </div>
+      <script src="index3.js"></script>
+</body>
